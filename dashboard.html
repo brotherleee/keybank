@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyBank — Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-page">
+    <!-- ==============================
+         TOP HEADER
+    =============================== -->
+    <header class="topbar">
+        <div class="brand dashboard-brand">
+            <div class="brand-icon">
+                K
+            </div>
+            <div>
+                <h1>KeyBank</h1>
+                <p>FDIC-insured-Backed by the full faith and credit of the US Government</p>
+            </div>
+        </div>
+        <button id="logoutButton" class="logout-button">
+            Sign out
+        </button>
+    </header>
+    <!-- ==============================
+         MAIN DASHBOARD
+    =============================== -->
+    <main class="dashboard-container">
+        <!-- DEMO NOTICE -->
+        <div class="demo-banner">
+            <div>
+                <strong>LOCKED ACCOUNT</strong>
+                <span>
+                    protected by the FBI
+                </span>
+            </div>
+            <span class="demo-status">
+                ● Hold Mode
+            </span>
+        </div>
+        <!-- WELCOME -->
+        <section class="welcome-section">
+            <p class="small-text">
+                PERSONAL ACCOUNT
+            </p>
+            <h2>
+                Welcome back, Samjana
+            </h2>
+            <p>
+                Here's your account overview.
+            </p>
+        </section>
+        <!-- ==============================
+             BALANCE CARD
+        =============================== -->
+        <section class="balance-card">
+            <div class="balance-top">
+                <span>
+                    AVAILABLE BALANCE
+                </span>
+                <span class="status">
+                    ● HOLD
+                </span>
+            </div>
+            <div class="balance">
+                $38,385.51
+            </div>
+            <div class="balance-bottom">
+                <div>
+                    <small>
+                        ACCOUNT NUMBER
+                    </small>
+                    <p>
+                        •••• •••• •••• 4521
+                    </p>
+                </div>
+                <div>
+                    <small>
+                        ACCOUNT TYPE
+                    </small>
+                    <p>
+                        Checking
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- ==============================
+             QUICK SUMMARY
+        =============================== -->
+        <section class="summary-grid">
+            <div class="summary-card">
+                <div class="summary-icon">
+                    $
+                </div>
+                <div>
+                    <span>
+                        Available
+                    </span>
+                    <strong>
+                        $38,385.51
+                    </strong>
+                </div>
+            </div>
+            <div class="summary-card">
+                <div class="summary-icon">
+                    ✓
+                </div>
+                <div>
+                    <span>
+                        Account status
+                    </span>
+                    <strong class="active">
+                        Active
+                    </strong>
+                </div>
+            </div>
+            <div class="summary-card">
+                <div class="summary-icon">
+                    US
+                </div>
+                <div>
+                    <span>
+                        Currency
+                    </span>
+                    <strong>
+                        USD
+                    </strong>
+                </div>
+            </div>
+        </section>
+        <!-- ==============================
+             TRANSACTION HISTORY
+        =============================== -->
+        <section class="activity-card">
+            <div class="section-heading">
+                <div>
+                    <h3>
+                        Transaction history
+                    </h3>
+                    <p>
+                        Recent account activity
+                    </p>
+                </div>
+                <span>
+                    
+                </span>
+            </div>
+            <!-- SCROLLABLE TRANSACTIONS -->
+            <div class="transaction-list">
+                <div class="activity">
+                    <div class="activity-icon deposit">
+                        ↓
+                    </div>
+                    <div class="activity-details">
+                        <strong>
+                            Direct Deposit
+                        </strong>
+                        <span>
+                            Oct 03, 2026 · Wire deposit
+                        </span>
+                    </div>
+                    <strong class="credit">
+                        +$30,250.00
+                    </strong>
+                </div>
+                <div class="activity">
+                    <div class="activity-icon payment">
+                        −
+                    </div>
+                    <div class="activity-details">
+                        <strong>
+                             Payment
+                        </strong>
+                        <span>
+                            Oct 02, 2026 · Online payment
+                        </span>
+                    </div>
+                    <strong class="debit">
+                        −$185.50
+                    </strong>
+                </div>
+                <div class="activity">
+                    <div class="activity-icon deposit">
+                        ↓
+                    </div>
+                    <div class="activity-details">
+                        <strong>
+                            Wire Transfer
+                        </strong>
+                        <span>
+                            Oct 01, 2026 · Incoming transfer
+                        </span>
+                    </div>
+                    <strong class="credit">
+                        +$1,250.00
+                    </strong>
+                </div>
+                <div class="activity">
+                    <div class="activity-icon payment">
+                        −
+                    </div>
+                    <div class="activity-details">
+                        <strong>
+                            Utility Payment
+                        </strong>
+                        <span>
+                            Sep 29, 2026 ·  payment
+                        </span>
+                    </div>
+                    <strong class="debit">
+                        −$92.18
+                    </strong>
+                </div>
+                <div class="activity">
+                    <div class="activity-icon deposit">
+                        ↓
+                    </div>
+                    <div class="activity-details">
+                        <strong>
+                           Check  Deposit
+                        </strong>
+                        <span>
+                            Sep 27, 2026 · Account deposit
+                        </span>
+                    </div>
+                    <strong class="credit">
+                        +$2,500.00
+                    </strong>
+                </div>
+                <div class="activity">
+                    <div class="activity-icon payment">
+                        −
+                    </div>
+                    <div class="activity-details">
+                        <strong>
+                            File Purchase
+                        </strong>
+                        <span>
+                            Sep 25, 2026 · Card purchase
+                        </span>
+                    </div>
+                    <strong class="debit">
+                        −$240.75
+                    </strong>
+                </div>
+                <div class="activity">
+                    <div class="activity-icon deposit">
+                        ↓
+                    </div>
+                    <div class="activity-details">
+                        <strong>
+                             Transfer
+                        </strong>
+                        <span>
+                            Sep 22, 2026 · Incoming transfer
+                        </span>
+                    </div>
+                    <strong class="credit">
+                        +$750.00
+                    </strong>
+                </div>
+                <div class="activity">
+                    <div class="activity-icon payment">
+                        −
+                    </div>
+                    <div class="activity-details">
+                        <strong>
+                            AT&T Subscription
+                        </strong>
+                        <span>
+                            Sep 20, 2026 · Recurring payment
+                        </span>
+                    </div>
+                    <strong class="debit">
+                        −$48.99
+                    </strong>
+                </div>
+                <div class="activity">
+                    <div class="activity-icon deposit">
+                        ↓
+                    </div>
+                    <div class="activity-details">
+                        <strong>
+                             Deposit
+                        </strong>
+                        <span>
+                            Sep 18, 2026 · Account deposit
+                        </span>
+                    </div>
+                    <strong class="credit">
+                        +$3,100.00
+                    </strong>
+                </div>
+                <div class="activity">
+                    <div class="activity-icon payment">
+                        −
+                    </div>
+                    <div class="activity-details">
+                        <strong>
+                             Purchase
+                        </strong>
+                        <span>
+                            Sep 16, 2026 · Card purchase
+                        </span>
+                    </div>
+                    <strong class="debit">
+                        −$135.20
+                    </strong>
+                </div>
+                <div class="activity">
+                    <div class="activity-icon deposit">
+                        ↓
+                    </div>
+                    <div class="activity-details">
+                        <strong>
+                             Transfer
+                        </strong>
+                        <span>
+                            Sep 14, 2026 · Incoming transfer
+                        </span>
+                    </div>
+                    <strong class="credit">
+                        +$900.00
+                    </strong>
+                </div>
+                <div class="activity">
+                    <div class="activity-icon payment">
+                        −
+                    </div>
+                    <div class="activity-details">
+                        <strong>
+                             Payment
+                        </strong>
+                        <span>
+                            Sep 11, 2026 · Online payment
+                        </span>
+                    </div>
+                    <strong class="debit">
+                        −$76.45
+                    </strong>
+                </div>
+                <div class="activity">
+                    <div class="activity-icon deposit">
+                        ↓
+                    </div>
+                    <div class="activity-details">
+                        <strong>
+                             Deposit
+                        </strong>
+                        <span>
+                            Sep 08, 2026 · Account deposit
+                        </span>
+                    </div>
+                    <strong class="credit">
+                        +$1,800.00
+                    </strong>
+                </div>
+                <div class="activity">
+                    <div class="activity-icon payment">
+                        −
+                    </div>
+                    <div class="activity-details">
+                        <strong>
+                             Purchase
+                        </strong>
+                        <span>
+                            Sep 05, 2026 · Card purchase
+                        </span>
+                    </div>
+                    <strong class="debit">
+                        −$215.30
+                    </strong>
+                </div>
+                <div class="activity">
+                    <div class="activity-icon deposit">
+                        ↓
+                    </div>
+                    <div class="activity-details">
+                        <strong>
+                            Wire Transfer
+                        </strong>
+                        <span>
+                            Sep 02, 2026 · Incoming transfer
+                        </span>
+                    </div>
+                    <strong class="credit">
+                        +$1,100.00
+                    </strong>
+                </div>
+            </div>
+        </section>
+        <!-- ==============================
+             BOTTOM NAVIGATION
+             VISUAL ONLY — NOT CLICKABLE
+        =============================== -->
+        <nav class="bottom-navigation">
+            <div class="nav-item active-nav">
+                <div class="nav-icon">
+                    ▣
+                </div>
+                <span>
+                    Accounts
+                </span>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">
+                    ↓
+                </div>
+                <span>
+                    Deposit
+                </span>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">
+                    ⇄
+                </div>
+                <span>
+                    Pay & Transfer
+                </span>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">
+                    ◇
+                </div>
+                <span>
+                    Invest
+                </span>
+            </div>
+        </nav>
+        <div class="footer-disclaimer">
+            DO NOT- expose this to public it's under government control.
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
